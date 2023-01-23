@@ -1,18 +1,19 @@
 package locators;
 
 
-		import java.util.*;
-		import java.util.concurrent.TimeUnit;
+		import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeMap;
+import java.util.concurrent.TimeUnit;
 
-		import org.omg.PortableInterceptor.INACTIVE;
-		import org.openqa.selenium.By;
-		import org.openqa.selenium.JavascriptExecutor;
-		import org.openqa.selenium.Keys;
-		import org.openqa.selenium.StaleElementReferenceException;
-		import org.openqa.selenium.WebElement;
-		import org.openqa.selenium.chrome.ChromeDriver;
-		import org.openqa.selenium.support.ui.ExpectedConditions;
-		import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 		/***
 		 * 
 		 * @author nisarga
